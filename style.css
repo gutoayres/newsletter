@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+  
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #121214;
+  
+}
+
+header img {
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  left: 30px;
+  top: 50px;
+  
+}
+
+#text h1 {
+  position: absolute;
+  width: 566px;
+  height: 30.44px;
+  left: 36px;
+  top: 236px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* Green */
+
+  color: #08c05e;
+}
+
+#text h2 {
+  position: absolute;
+  width: 517px;
+  height: 16px;
+  left: 36px;
+  top: 275px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+#text p {
+  position: absolute;
+  width: 647px;
+  height: 38px;
+  left: 36px;
+  top: 300px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+#form p {
+  position: absolute;
+  width: 133px;
+  height: 19px;
+  left: 36px;
+  top: 388px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  /* or 19px */
+
+  color: #a8a8a8;
+  
+}
+
+#form input {
+  position: absolute;
+  width: 750px;
+  height: 48px;
+  left: 36px;
+  top: 424px;
+
+  background: #ffffff;
+  
+}
+
+#form button {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 786px;
+  top: 422px;
+  /*mudei para 422 era 424px */
+  background: #8257e5;
+  
+}
+
+#redirect a {
+  position: absolute;
+  width: 167px;
+  height: 19px;
+  left: 36px;
+  top: 524px;
+
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 138.73%;
+  /* or 19px */
+
+  /* Purple */
+
+  color: #8257e5;
+  text-decoration: none;
+  
+  
+  
+}
+
+#redirect img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 208px;
+  top: 522px;
+  
+  
+  
+}
+
+#bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/read_news.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
