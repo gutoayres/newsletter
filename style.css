@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 :root {
@@ -13,13 +12,11 @@
   --title-color: #04d361;
   --form-color: #a8a8a8;
   --bg-button-color: #8257e5;
-  
 }
 
 body {
   font-family: "Work Sans", sans-serif;
   background-color: #121214;
-  
 }
 
 header img {
@@ -28,7 +25,6 @@ header img {
   height: 94px;
   left: 30px;
   top: 50px;
-  
 }
 
 #text h1 {
@@ -97,7 +93,6 @@ header img {
   /* or 19px */
 
   color: #a8a8a8;
-  
 }
 
 #form input {
@@ -108,7 +103,6 @@ header img {
   top: 424px;
 
   background: #ffffff;
-  
 }
 
 #form button {
@@ -119,7 +113,6 @@ header img {
   top: 422px;
   /*mudei para 422 era 424px */
   background: #8257e5;
-  
 }
 
 #redirect a {
@@ -140,9 +133,6 @@ header img {
 
   color: #8257e5;
   text-decoration: none;
-  
-  
-  
 }
 
 #redirect img {
@@ -151,16 +141,22 @@ header img {
   height: 24px;
   left: 208px;
   top: 522px;
-  
-  
-  
+}
+
+#container {
+  width: 50%;
+  top: 0;
+  bottom: 0;
 }
 
 #bg {
-  width: 100%;
-  height: 100vh;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
   background-image: url(./assets/read_news.jpg);
-  background-position: right;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: contain;
 }
